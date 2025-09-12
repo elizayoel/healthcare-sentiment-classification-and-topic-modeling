@@ -1,0 +1,16 @@
+import os
+
+os.makedirs(".streamlit", exist_ok=True)
+
+config = """
+[theme]
+primaryColor = "#FFFFFF"
+backgroundColor = "#fffbde"
+secondaryBackgroundColor = "#E6F3F8"
+textColor = "#000000"
+font = "sans serif"
+"""
+
+with open(".streamlit/config.toml", "w") as f:
+    f.write(config)
+
