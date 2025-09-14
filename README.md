@@ -6,6 +6,7 @@ This project introduces a Streamlit-based web application designed to help healt
 
 ## Dataset and Preprocessing
 The project uses 1,068,688 patient text reviews. Since the reviews were unlabeled, they were annotated using SIEBERT, a transformer-based sentiment analysis model known for its robustness in transfer learning.
+- **Source:** https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/
 
 Reviews underwent extensive EDA and NLP preprocessing steps, including:
 - Emoji handling
